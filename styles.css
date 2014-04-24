@@ -65,20 +65,20 @@ ul {
 }
 
 li {
-font-size: 20px;
-float: left;
-width: 50%;
-color: gray;
-padding-left: 25px;
-position: relative;
-line-height: 31px;
-cursor: pointer; /*thank you css-tricks! http://css-tricks.com/almanac/properties/c/cursor/ */
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  color: gray;
+  padding-left: 25px;
+  position: relative;
+  line-height: 31px;
+  cursor: pointer; /*thank you css-tricks! http://css-tricks.com/almanac/properties/c/cursor/ */
 }
 
 li:before {
-content: url(Assets/emptyticksmall.png);/*original courtesy of https://www.iconfinder.com/icons/226561/check_square_icon#size=128*/
-position: absolute;
-left: 0;
+  content: url(Assets/emptyticksmall.png);/*original courtesy of https://www.iconfinder.com/icons/226561/check_square_icon#size=128*/
+  position: absolute;
+  left: 0;
 }
 
 .completed {
@@ -101,8 +101,8 @@ footer {
 }
 
 .author {
-float: left;
-width: 75%;
+  float: left;
+  width: 75%;
 }
 
 .photo {
@@ -111,9 +111,9 @@ width: 75%;
 }
 
 .about {
-margin-top: 10px;
-font-size: 18px;
-text-indent: 0px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-indent: 0px;
 }
 
 strong {
