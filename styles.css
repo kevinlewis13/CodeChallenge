@@ -1,0 +1,134 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: sans-serif; /* I don't know what all the fonts are, but went with sans-serif as the baseline */
+}
+
+header {
+  padding-bottom: 25px;
+}
+
+.logo {
+  margin-top: 34px;
+}
+
+.links {
+  float: right;
+  margin-top: 44px;
+}
+
+article {
+  border-top: 15px solid gray; /*This must be some custom element, so I just went with a solid border here in the interest of not pulling all my hair out/hours on the internet */
+  padding-top:20px;
+}
+
+.articlehead {
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 2.5em; /* Experimenting with ems, though I primarily used px.  I'm still not entirely comfortable with these, and stuck with pixels mostly in the interest of time. */
+  margin-bottom: 0;
+}
+
+.info {
+  float: left;
+  font-size: 12px;
+  color: gray;
+}
+
+.genre {
+  color: firebrick; /*color courtesy of http://www.quackit.com/css/css_color_codes.cfm */
+ }
+
+.print {
+  float: right;
+}
+
+p {
+  text-indent: 30px;
+  font-family: serif;
+  font-size: 20px;
+  margin: 30px 0;
+  color: gray; /*Just going with gray for all the main coloring, it gets the basic effect down, and I don't, again, want to spend hours matching colors. */
+}
+
+ul {
+  background-image: url('Assets/notebookline.png');
+  padding: 37px 75px;
+  list-style: none;
+  overflow: auto;
+}
+
+li {
+font-size: 20px;
+float: left;
+width: 50%;
+color: gray;
+padding-left: 25px;
+position: relative;
+line-height: 31px;
+cursor: pointer; /*thank you css-tricks! http://css-tricks.com/almanac/properties/c/cursor/ */
+}
+
+li:before {
+content: url(Assets/emptyticksmall.png);/*original courtesy of https://www.iconfinder.com/icons/226561/check_square_icon#size=128*/
+position: absolute;
+left: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.completed:before {
+  content: url(Assets/fullticksmall.png);/*original tick mark courtesy of https://www.iconfinder.com/icons/103184/check_checkmark_ok_yes_icon */
+}
+
+.bottom {
+  position: absolute;
+  margin-top: -29px; /*I realize this is probably clumsy, but it gets the appearance right, I would be very interested to know how this is better accomplished */
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 15px solid gray;
+  padding-top: 15px;
+}
+
+.author {
+float: left;
+width: 75%;
+}
+
+.photo {
+  float: left;
+  padding-right: 10px;
+}
+
+.about {
+margin-top: 10px;
+font-size: 18px;
+text-indent: 0px;
+}
+
+strong {
+  font-size: 20px;
+}
+
+.share {
+  float: right;
+  line-height: 42px;
+  font-size: 20px;
+  background-color: #CC6633; /*color via http://www.quackit.com/css/css_color_codes.cfm*/
+  color: white;
+  margin-top: 30px;
+  width: 200px;
+  text-indent: 25px;
+}
